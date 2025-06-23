@@ -10,31 +10,79 @@ body{
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
+    background-color: rgb(1, 1, 62);
+    color: #fff;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.dictionaryForm{
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 0.5rem; 
+    justify-content: center; align-items: center; 
+    width: 100%; 
+    margin-bottom: 1rem;
+}
+
+
+.wordInput{
+   width: max(30%,200px);
+   padding: 10px 15px;
+   font-size: 1.3rem;
+   font-weight: bold;
+}
+
+button[type="submit"]{
+    padding: 10px 15px;
+    font-size: 1.3rem;
+    background-color: rgba(255, 3, 3, 0.77);
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+
 }
 
 .card{
-    padding: 1em;
-}
-.storeMeaning{
-    display: flex;
+     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    /* padding: 1em; */
+    background-color: #fff;
+    color: #000;
+    margin-top: 1em;
+    width: min(90vw,500px);
+    max-width: 100%;
 }
+.storeMeaning{
+   
+    padding:1em;
+}
+
+
 
 
 .partOfSpeech{
     font-weight: bold;
     color: green;
+    margin-bottom: 10px;
 }
 
 .definition{
     font-size: 1.3rem;
+    margin-bottom: 10px;
 }
 
 .example{
     font-style: italic;
+    margin-bottom: 10px;
 }
 
 .synonyms, .antonyms{
     text-decoration: underline;
+    
 }
