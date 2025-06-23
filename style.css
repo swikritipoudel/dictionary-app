@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: poppins;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.card{
+    padding: 1em;
+}
+.storeMeaning{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.partOfSpeech{
+    font-weight: bold;
+    color: green;
+}
+
+.definition{
+    font-size: 1.3rem;
+}
+
+.example{
+    font-style: italic;
+}
+
+.synonyms, .antonyms{
+    text-decoration: underline;
+}
